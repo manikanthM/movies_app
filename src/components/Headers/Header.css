@@ -1,0 +1,21 @@
+.Header {
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vw;
+    padding-bottom: 10px;
+    box-shadow: 0px 1px 15px black;
+    z-index: 100;
+}
+
+@media (max-width:1000px) {
+    .Header{
+        padding-top: 10px;
+        font-size: 6.4vw;
+    }
+}
